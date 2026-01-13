@@ -2,10 +2,25 @@
 
 
 *{
-    color: #e6e6e6;
+    color:#121212;
+
     font-family:"Inter","Merriweather Sans", sans-serif;
+    font-size:17.5px;
 }
 
-input, select,textarea{
-    color:#121212;
+form{
+    justify-self:center;
+    justify-items:center;
+    margin-top:10vw;
+    background-color: aliceblue;
+    border-radius:10px;
+    padding:1vw;
+}
+
+textarea{
+    justify-content:center;
+}
+
+.submitandreset{
+    margin-top:3vw;
 }
